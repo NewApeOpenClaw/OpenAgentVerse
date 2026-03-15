@@ -53,19 +53,18 @@ jobs:
         # 运行Python脚本
         python update_data.py
         
-    - name: 检查是否有更改
+    - name: 检查生成的文件
       run: |
-        if [[ -n "$(git status --porcelain)" ]]; then
-          echo "检测到更改，准备提交..."
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "🤖 Auto Update: $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
-          echo "更改已提交"
-        else
-          echo "没有检测到更改"
+        echo "📊 生成的文件列表："
+        echo "=================="
+        if [[ -f "reports/daily/$(date +%Y-%m-%d)-report.md" ]]; then
+          echo "✅ 每日报告: reports/daily/$(date +%Y-%m-%d)-report.md"
         fi
+        if [[ -f "data/$(date +%Y-%m-%d)-projects.json" ]]; then
+          echo "✅ 项目数据: data/$(date +%Y-%m-%d)-projects.json"
+        fi
+        echo "=================="
+        echo "📈 数据已生成，如需提交请手动操作"
         
     - name: 发送成功通知
       if: success()
