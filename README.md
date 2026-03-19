@@ -136,6 +136,30 @@ OpenAgentVerse 现已配置 **GitHub Actions 自动更新系统**：
 - **[SkillHub商店](https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/skillhub.md)** - 中国优化技能商店
 - **[OpenClaw社区](https://discord.com/invite/clawd)** - 官方Discord社区
 
+## 🎓 深度技术资源推荐
+
+### [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) - 真正的 Agent Harness 工程
+
+一个关于 Agent 本质和技术哲学的深度思考资源：
+
+**核心观点**: "模型就是 Agent" - 挑战流行的 Agent 框架概念，主张真正的 Agent 是训练出来的**模型本身**，而不是外部的框架、工作流或提示词链。
+
+**主要内容**:
+- 📚 **历史论证**: 从 DeepMind DQN (2013)、OpenAI Five (2019)、AlphaStar、腾讯绝悟等里程碑项目论证 Agent 本质
+- 🔍 **技术批判**: 区分真正的 Agent 工程 vs "提示词水管工"式伪 Agent 系统
+- 🛠️ **实践指导**: 如何正确构建 Agent Harness（为模型提供可操作的环境）
+- 🌍 **多语言文档**: 完整的中文、英文、日文文档
+
+**价值所在**:
+- ✅ **深度思考**: 超越表面技术，探讨 AI 代理的本质
+- ✅ **历史视角**: 从 AI 发展史理解 Agent 概念演变
+- ✅ **批判精神**: 对当前 AI 行业趋势的反思和质疑
+- ✅ **完整资源**: 包含代码、技能、文档、Web界面等完整项目
+
+**适合人群**: AI 研究者、工程师、学习者、批判性思考者
+
+> **推荐理由**: 这个仓库提供了一个独特的视角，对于理解 AI 代理技术的本质非常有帮助。它不是教你如何使用某个框架，而是让你**重新思考什么是真正的 Agent**。
+
 ## 📄 许可证
 
 本项目采用 **MIT License** - 详见 [LICENSE](LICENSE) 文件
@@ -156,16 +180,3 @@ OpenAgentVerse 现已配置 **GitHub Actions 自动更新系统**：
 
 ---
 *OpenAgentVerse - Where Open Source Agents Unite*
-## 🎓 学习资源 - learn-claude-code
-
-最近添加了 **shareAI-lab/learn-claude-code** 作为 Git submodule，这是一个关于 **真正的 Agent Harness 工程** 的深度技术资源。
-
-**主要内容**:
-- 深入解析 Agent 的本质：模型就是 Agent
-- Agent Harness 工程实践
-- 从第一性原理理解 AI 代理技术
-- 包含中、英、日三语完整文档
-
-**访问方式**:
-
-**GitHub 链接**: https://github.com/shareAI-lab/learn-claude-code
