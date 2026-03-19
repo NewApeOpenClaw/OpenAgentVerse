@@ -102,6 +102,7 @@ OpenAgentVerse 现已配置 **GitHub Actions 自动更新系统**：
 - [x] 创建项目热度分析报告和分类目录
 - [x] 配置GitHub Actions自动更新系统
 - [x] 优化搜索关键词和仓库描述
+- [x] 添加 **shareAI-lab/learn-claude-code** 作为 Git submodule（2026-03-19）
 
 ### 🔄 进行中
 - [ ] 自动更新系统首次运行
@@ -112,6 +113,41 @@ OpenAgentVerse 现已配置 **GitHub Actions 自动更新系统**：
 - [ ] 开发项目推荐系统
 - [ ] 创建社区贡献指南
 - [ ] 发布季度生态报告
+
+## 🎓 最新添加 - learn-claude-code
+
+我们最近添加了 **shareAI-lab/learn-claude-code** 作为 Git submodule，这是一个关于 **真正的 Agent Harness 工程** 的深度技术资源。
+
+### 📚 主要内容
+- **Agent 本质解析**: "模型就是 Agent" 的深度理解
+- **Agent Harness 工程**: 为模型提供可操作环境的实践
+- **多语言文档**: 中文、英文、日文完整文档
+- **技术深度**: 从第一性原理理解 AI 代理技术
+
+### 📁 目录结构
+```
+learn-claude-code/
+├── agents/           # Agent 实现
+├── docs/             # 文档
+├── skills/           # 技能
+├── web/              # Web 界面
+├── README.md         # 英文说明
+├── README-zh.md      # 中文说明
+├── README-ja.md      # 日文说明
+└── requirements.txt  # 依赖
+```
+
+### 🔧 使用说明
+```bash
+# 初始化 submodule
+git submodule update --init --recursive
+
+# 查看中文文档
+cd learn-claude-code
+cat README-zh.md | less
+```
+
+**GitHub 链接**: https://github.com/shareAI-lab/learn-claude-code
 
 ## 🤝 参与贡献
 
@@ -156,3 +192,16 @@ OpenAgentVerse 现已配置 **GitHub Actions 自动更新系统**：
 
 ---
 *OpenAgentVerse - Where Open Source Agents Unite*
+## 🎓 学习资源 - learn-claude-code
+
+最近添加了 **shareAI-lab/learn-claude-code** 作为 Git submodule，这是一个关于 **真正的 Agent Harness 工程** 的深度技术资源。
+
+**主要内容**:
+- 深入解析 Agent 的本质：模型就是 Agent
+- Agent Harness 工程实践
+- 从第一性原理理解 AI 代理技术
+- 包含中、英、日三语完整文档
+
+**访问方式**:
+
+**GitHub 链接**: https://github.com/shareAI-lab/learn-claude-code
